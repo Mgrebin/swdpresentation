@@ -54,9 +54,9 @@ export default function UsersTable() {
   </tbody>
 </table>
 
-<div className="xl:hidden space-y-4 w-full">
+<div className="xl:hidden space-y-4 w-full mx-0">
   {users.map(user => (
-    <div key={user.id} className="bg-white divide-y divide-gray-200 flex flex-col p-4 mb-4 rounded-xl">
+    <div key={user.id} className="bg-white divide-y divide-gray-200 flex flex-col p-4 mb-4 rounded-xl w-full mx-0">
       <div className="flex justify-between items-start text-slate-950 space-x-7">
         <strong>Username:</strong> 
         <div className="flex justify-start w-full items-start"><span className="font-light">{user.username}</span></div>
